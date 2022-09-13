@@ -1,0 +1,47 @@
+.icon {
+  padding: 2px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.borderNavbar {
+  margin: 10px 2%;
+}
+.fll {
+  float: left;
+}
+.textNone {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+.borderNavbar:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.background {
+  background: black;
+}
+
+.borderTotal {
+  padding: 5px;
+  transition-timing-function: ease-in;
+  transition: all 1s;
+}
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+@media (max-width: 600px) {
+  .icon {
+    padding: 2px;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 48%;
+  }
+  .text {
+    text-align: center;
+  }
+}
